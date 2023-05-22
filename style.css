@@ -2,30 +2,8 @@
 @import "images/variables.css";
 
 @import "images/topbar.css";
+@import "images/index.css";
 
 * {
   box-sizing: border-box;
-}
-
-.home-header {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 25px 0px;
-}
-
-.home-header-wrapper {
-  max-width: var(--max-content-width);
-  width: 100%;
-}
-
-.home-header__slogun {
-  padding: 15px 0px;
-  font-size: 33px;
-  font-weight: 700;
-}
-
-.home-header__slogun-description {
-  color: var(--color-subinfo);
-  font-size: 15px;
 }

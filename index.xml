@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <skin>
 	<information>
-		<name>Polar</name>
+		<name>Test Polar</name>
 		<version>0.0.1</version>
 		<description><![CDATA[폴라로이드 컨셉의 스킨입니다.]]></description>
 		<license><![CDATA[MIT License]]></license>
@@ -39,7 +39,7 @@
 	</default>
 	<cover>
 		<item>
-			<name>image_slide</name>
+			<name>image-slide</name>
 			<label><![CDATA[ 슬라이더 ]]></label>
 			<description><![CDATA[ 글의 대표 이미지를 한장씩 출력하는 슬라이더입니다.]]></description>
 		</item>
