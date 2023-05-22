@@ -1,7 +1,3 @@
-* {
-  box-sizing: border-box;
-}
-
 .topbar {
   display: flex;
   justify-content: center;

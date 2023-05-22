@@ -44,4 +44,22 @@
 			<description><![CDATA[ 글의 대표 이미지를 한장씩 출력하는 슬라이더입니다.]]></description>
 		</item>
 	</cover>
+	<variables>
+		<variable>
+			<name>blogSlogun</name>
+			<label>블로그 슬로건 타이틀</label>
+			<description>블로그 홈 화면 헤더 영역에 들어갈 문구</description>
+			<type>STRING</type>
+			<option></option>
+			<default>Polar</default>
+		</variable>
+		<variable>
+			<name>blogSlogunDescription</name>
+			<label>블로그 슬로건 설명</label>
+			<description>블로그 홈 화면 헤더 영역에 들어갈 블로그 슬로건 설명문구</description>
+			<type>STRING</type>
+			<option></option>
+			<default>My daily blog</default>
+		</variable>
+	</variables>
 </skin>
