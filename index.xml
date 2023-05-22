@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<skin>
+	<information>
+		<name>Polar</name>
+		<version>0.0.1</version>
+		<description><![CDATA[폴라로이드 컨셉의 스킨입니다.]]></description>
+		<license><![CDATA[MIT License]]></license>
+	</information>
+	<author>
+		<name>ChanJun Park</name>
+		<homepage>https://www.tistory.com</homepage>
+		<email>https://github.com/ChanJun-Park</email>
+	</author>
+	<default>
+		<entriesOnPage>8</entriesOnPage>
+		<entriesOnList>8</entriesOnList>
+		<recentEntries>4</recentEntries>
+		<recentComments>5</recentComments>
+		<recentTrackbacks>5</recentTrackbacks>
+		<itemsOnGuestbook>5</itemsOnGuestbook>
+		<tagsInCloud>20</tagsInCloud>
+		<sortInCloud>3</sortInCloud>
+		<expandComment>1</expandComment>
+		<lengthOfRecentNotice>30</lengthOfRecentNotice>
+		<lengthOfRecentEntry>100</lengthOfRecentEntry>
+		<lengthOfRecentComment>40</lengthOfRecentComment>
+		<lengthOfRecentTrackback>40</lengthOfRecentTrackback>
+		<lengthOfLink>30</lengthOfLink>
+		<commentMessage>
+			<none>0</none>
+			<single>1</single>
+		</commentMessage>
+		<trackbackMessage>
+			<none>0</none>
+			<single>1</single>
+		</trackbackMessage>
+		<contentWidth>725</contentWidth>
+		<toolbar>white</toolbar>
+	</default>
+	<cover>
+		<item>
+			<name>image_slide</name>
+			<label><![CDATA[ 슬라이더 ]]></label>
+			<description><![CDATA[ 글의 대표 이미지를 한장씩 출력하는 슬라이더입니다.]]></description>
+		</item>
+	</cover>
+</skin>
