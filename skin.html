@@ -20,18 +20,12 @@
       <div class="topbar">
         <div class="topbar__wrapper">
           <div class="topbar__title">
-            <!-- <img
+            <img
               class="topbar__blog-image"
               src="[##_image_##]"
               alt="블로그 대표 이미지"
-            /> -->
-            <!-- <h1 class="topbar__blog-title">[##_title_##]</h1> -->
-            <img
-              class="topbar__blog-image"
-              src="images/dummyBlogImage.jpeg"
-              alt="블로그 대표 이미지"
             />
-            <h1 class="topbar__blog-title">Eg anda - reference</h1>
+            <h1 class="topbar__blog-title">[##_title_##]</h1>
           </div>
           <s_search>
             <div class="topbar__search">
@@ -65,20 +59,48 @@
           <s_cover name="image-slide">
             <div class="image-slide">
               <s_cover_item>
-                <div class="image-slide-item">
+                <div class="image-slide__item">
                   <s_cover_item_thumbnail>
-                    <img class="image" src="[##_cover_item_thumbnail_##]" />
+                    <img
+                      class="image-slide__item-thumbnail"
+                      src="[##_cover_item_thumbnail_##]"
+                    />
+                    <div class=".image-slide__item-thumbnail-cover"></div>
                   </s_cover_item_thumbnail>
-                  <strong class="title">[##_cover_item_title_##]</strong>
-                  <a href="[##_cover_item_url_##]" class="action"
-                    >자세히 보기</a
-                  >
+                  <div class="image-slide__item-info">
+                    <p class="image-slide__item-title">
+                      [##_cover_item_title_##]
+                    </p>
+                    <a
+                      class="image-slide__item-link action"
+                      href="[##_cover_item_url_##]"
+                      >자세히 보기</a
+                    >
+                  </div>
                 </div>
               </s_cover_item>
             </div>
           </s_cover>
         </s_cover_rep>
       </s_cover_group>
+
+      <!-- <div class="image-slide">
+        <div class="image-slide__item">
+          <img
+            class="image-slide__item-thumbnail"
+            src="images/dummyBlogImage.jpeg"
+          />
+          <div class="image-slide__item-info">
+            <p class="image-slide__item-title">[##_cover_item_title_##]</p>
+            <a
+              class="image-slide__item-link"
+              href="[##_cover_item_url_##]"
+              class="action"
+              >자세히 보기</a
+            >
+          </div>
+        </div>
+      </div> -->
     </s_t3>
   </body>
 </html>
